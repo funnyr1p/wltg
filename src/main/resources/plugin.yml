@@ -1,0 +1,17 @@
+name: WhitelistManager
+version: '1.0'
+main: com.example.whitelistmanager.WhitelistManager
+api-version: '1.20'
+description: A plugin that manages whitelist requests through Telegram
+commands:
+  whitelist:
+    description: Main command for whitelist management
+    usage: /<command> [request|accept|deny|list]
+    permission: whitelistmanager.use
+permissions:
+  whitelistmanager.use:
+    description: Allows to use whitelist commands
+    default: op
+  whitelistmanager.admin:
+    description: Allows to manage whitelist requests
+    default: op 

@@ -1,0 +1,6 @@
+# Настройки Telegram бота
+telegram:
+  # Токен бота, полученный от @BotFather
+  bot-token: "YOUR_BOT_TOKEN"
+  # ID чата администраторов (можно получить у @userinfobot)
+  admin-chat-id: "YOUR_ADMIN_CHAT_ID" 
